@@ -203,15 +203,3 @@ Outputs a summary and success message.
 
 ---
 
-## 🧩 Presentation Tip
-
-When you present this:
-
-1. **Explain what a Flash Loan is.**
-2. **Show the validation logic** (the `mkValidator` part).
-3. **Explain how you compiled it** (`cabal run` → `validator.plutus`).
-4. **Show output:** script hash and address printed to console.
-5. **Explain that this file can be used on testnet** with Cardano CLI for real validation.
-
----
-
