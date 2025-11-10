@@ -260,15 +260,6 @@ main = defaultMain $
 | 4    | Validator checks repayment ≥ loan amount                   |
 | 5    | Transaction succeeds or fails atomically                   |
 
----
-
-## 🧱 12. Next Steps
-
-You can extend this contract to:
-
-* Add **fee logic** (e.g., `repayAmount >= loanAmount + fee`)
-* Record **borrower address** in the datum
-* Integrate with **off-chain scripts** to automate the flash loan request
 
 ---
 
